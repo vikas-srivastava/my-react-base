@@ -1,4 +1,4 @@
-**********
+********** Day 1 ************
  2008  npm init
  2009  npm i -S react
  2010  npm i -S react-dom
@@ -20,7 +20,7 @@
  2026  npm -i D @babel/preset-env
  2027  npm i -D @babel/preset-env
  2028  npm run build
- 2029  history
+ 2029  npm run start
 ***********
 
 *************************** Steps **************************
@@ -43,11 +43,11 @@ A - Basic Setup of React  :
 	14 - test with npm run build
 	15 - npm run start and continue further development
 
+**************** Day 1 - 1.5 Hours ************
+
 B - Understand Accecbilty Issue for color-contrast/font/heading-sementics 
 
-Components Planning - 
-
-	1 - 
+C - Components Planning 
 
 
 
