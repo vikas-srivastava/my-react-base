@@ -1,0 +1,35 @@
+{
+  "name": "e-com-popup",
+  "version": "0.0.1",
+  "description": "Simple 5 Step E-commerece popup to catch payments from famous gateways.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build && npm run git-commit && npm run git-push",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [
+    "e-commerece",
+    "indian",
+    "payment",
+    "gateway"
+  ],
+  "author": "Vikas Srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.9.13",
+    "@material-ui/icons": "^4.9.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
